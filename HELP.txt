@@ -1,0 +1,1 @@
+Abrir o git bash dentro da pasta do projeto

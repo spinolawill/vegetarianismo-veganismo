@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+main{
+  padding: 50px 8% 50px 8%;
+}
+
+header{
+  background: rgba(237, 239, 216, 0.70);
+}
+
+header a{
+  text-decoration: none;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  padding-right: 2rem;
+  height: 65px;
+}
+
+header li{
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+.text, p{
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  padding-top: 25px;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+main li{
+  margin-left: 5rem;
+  padding-top: 20px;
+}
+
+#citation{
+  padding-left: 5rem;
+}
+
+.topic{
+  padding-bottom: 5rem;
+}
