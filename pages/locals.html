@@ -22,8 +22,8 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-sm-4">
         <li class="nav-item">
           <a href="#whats-is-title" class="nav-link">O que é</a>
         </li>
@@ -40,8 +40,36 @@
     </div>
   </nav>
 
-  <main class="container-fluid">
-    <div class="row col-sm">
+  <main class="container-fluid pt-4">
+    <div class="row" id="map-list-transition">
+      <nav class="col-sm-12">
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-map-tab" data-toggle="tab" href="#map-content" role="tab" aria-selected="true">Mapa</a>
+          <a class="nav-item nav-link" id="nav-list-tab" data-toggle="tab" href="#list-content" role="tab" aria-selected="false">Lista</a>
+        </div>
+      </nav>  
+      
+      <div class="tab-content col-sm-12" id="nav-tabContent">
+        
+        <div class="tab-pane fade show active" id="map-content" role="tabpanel" aria-labelledby="nav-map-tab">
+          <div id="map"></div>
+        </div>
+
+        <div class="tab-pane fade" id="list-content" role="tabpanel" aria-labelledby="nav-list-tab">
+          <div class="pt-4">
+            <div class="row" id="card-columns"></div>
+          </div>
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+    <!-- 
+    <div class="">
       <ul class="nav nav-tabs">
         <li class="nav-item">
           <a class="nav-link active" href="#">Lista</a>
@@ -51,11 +79,11 @@
         </li>
       </ul>
     </div>
-    <div class="row col-sm">
+    <div class="">
       <div class="list">List</div>
       <div id="map"></div>
     </div>
-  </main>
+    -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -66,6 +94,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../scripts/mockup-locals.js"></script>
   <script src="../scripts/locals.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQ4qkekcYm0727yhYzNYZbPRwoFnyHDPE&callback=initMap"
     async defer></script>

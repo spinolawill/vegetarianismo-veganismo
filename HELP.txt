@@ -1,7 +1,12 @@
-Abrir o git bash dentro da pasta do projeto			
-Fazer um "git pull" para pegar os arquivos mais recentes do servidor								
-Alterar o que for necessario						
-Fazer um "git add <nome dos arquivos>" para adicionar as modificações ao staging				
+Abrir o git bash dentro da pasta do projeto		
+
+Fazer um "git pull" para pegar os arquivos mais recentes do servidor
+
+Alterar o que for necessario	
+
+Fazer um "git add <nome dos arquivos>" para adicionar as modificações ao staging	
+
 Fazer um "git commit -m <"menssagem de alteração">" para fixar as alterações realizadas		
+
 Fazer um "git push origin master" para enviar as alterações para o servidor																			
 git status mostra o que foi alterado
