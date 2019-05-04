@@ -31,7 +31,7 @@ function initMap() {
                   <div class="card-body">
                     <h5 class="card-title">${locals_list[i].name}</h5>
                     <p class="card-text">${locals_list[i].category}</p>
-                    <p class="card-text badge badge-success">${locals_list[i].option_type}</p>
+                    <p class="card-text badge ${locals_list[i].option_color}">${locals_list[i].option_type}</p>
                   </div>
                 </div>
               </div>
