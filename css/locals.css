@@ -13,3 +13,7 @@
 #card-columns{
 	justify-content: center;
 }
+
+#local_id {
+	list-style: none;
+}
