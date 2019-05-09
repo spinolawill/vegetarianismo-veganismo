@@ -7,21 +7,25 @@ var locals_list =  [
     "option_type": "Possui opção vegana",
     "option_color":"badge-success",
     "category": "Hamburgueria · Bar · Restaurante",
-    "address": "Av. Marcelino Píres, 1187 - Centro, Dourados - MS, 79820-010",
+    "address": "Av. Marcelino Píres, 1187 - Centro",
     "phone": "(67) 3421-8238",
     "social_networks": [
       {
-        "type": "FB",
-        "link": "https//www.facebook.com/cantinadopaulao2/"
+        "icon": "fa-facebook",
+        "link": "https://www.facebook.com/cantinadopaulao2/"
       }
     ],
     "modality": "la carte, KG, Livre",
     "products": [
       {
-        "name": "Vegano: lanche vegano com hambúrguer artesanal de grão de bico, cenoura e aveia, salada de alface, rúcula, picles, tomate e pasta de grão de bico homus."
+        "title": "Vegano" ,
+        "description": "Lanche vegano com hambúrguer artesanal de grão de bico, cenoura e aveia, salada de alface, rúcula, picles, tomate e pasta de grão de bico homus.",
+        "icon": "fa-hamburger"
       },
       {
-        "name": "Macarrão vegano bolonhesa: proteína de soja + massa sem ovos"
+        "title": "Macarrão vegano bolonhesa",
+        "description": "Proteína de soja + massa sem ovos",
+        "icon": "fa-utensils"
       }
     ]
   },
@@ -29,7 +33,7 @@ var locals_list =  [
     "lat": -22.225637,
     "lng": -54.809675,
     "name": "Baru Mercado Natural",
-    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/30739931_583357632028368_8747150534135250944_n.png?_nc_cat=100&_nc_ht=scontent.fmgf1-2.fna&oh=2d0b7968cd14f2b5f934357e7b230989&oe=5D653C14",    
+    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/30739931_583357632028368_8747150534135250944_n.png?_nc_cat=100&_nc_ht=scontent.fmgf1-2.fna&oh=2d0b7968cd14f2b5f934357e7b230989&oe=5D653C14",
     "option_type": "Possui opção vegana",
     "option_color":"badge-success",
     "category": "Especializado",
@@ -37,18 +41,20 @@ var locals_list =  [
     "phone": "(67)3038-8006",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/BaruMercadoNatural"
       },
       {
-        "type": "Insta",
+        "icon": "fa-instagram",
         "link": "https://www.instagram.com/barumercadonatural/"
       }
     ],
     "modality": "la carte, KG, Livre",
     "products": [
       {
-        "name": "Loja de produtos naturais: são mais de 250 produtos à granel, com várias opções de castanhas, temperos, chás, farinhas, além de muitos produtos light, diet, sem lactose, sem glúten, veganos e muito mais !"
+        "title": "Suplementos e produtos naturais",
+        "description": "São mais de 250 produtos à granel, com várias opções de castanhas, temperos, chás, farinhas, além de muitos produtos light, diet, sem lactose, sem glúten, veganos e muito mais!",
+        "icon": "fa-shopping-basket"
       }
     ]
   },
@@ -64,27 +70,30 @@ var locals_list =  [
     "phone": "(67) 3423-0332",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/the49pub/"
       },
       {
-        "type": "Insta",
+        "icon": "fa-instagram",
         "link": "https://www.instagram.com/the49cafe/"
       }
     ],
     "modality": "la carte, KG , Livre",
     "products": [
       {
-        "name": "San Francisco soup: caldo vegano de legumes",
-        "type": "Vegano"
+        "title": "San Francisco soup",
+        "description": "Caldo vegano de legumes",
+        "icon": "fa-utensils"
       },
       {
-        "name": "Vegan Salad: alface, rúcula, tomate, picles, azeitona, queijo fresco e croutons. 4 molhos a escolha: azeite de ervas, molho de iogurte, molho de pimenta e molho balsâmico. Todos artesanais",
-        "type": "Vegano"
+        "title": "Vegan Salad",
+        "description": "Alface, rúcula, tomate, picles, azeitona, queijo fresco e croutons. 4 molhos a escolha: azeite de ervas, molho de iogurte, molho de pimenta e molho balsâmico. Todos artesanais",
+        "icon": "fa-leaf"
       },
       {
-        "name": "Pirita Vegan: lanche vegano com hambúrguer artesanal de grão de bico ou beterraba com lentilha",
-        "type": "Vegano"
+        "title": "Pirita Vegan",
+        "description": "Lanche vegano com hambúrguer artesanal de grão de bico ou beterraba com lentilha",
+        "icon": "fa-hamburger"
       }
     ]
   },
@@ -100,19 +109,20 @@ var locals_list =  [
     "phone": "(67) 98416-6685",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/oi.baianinha/"
       },
       {
-        "type": "Insta",
+        "icon": "fa-instagram",
         "link": "https://www.instagram.com/oi.baianinha/"
       }
     ],
     "modality": "la carte",
     "products": [
       {
-        "name": "Tortas, Bolos, Cupcakes, Muffins, Cookies, Docinhos, Salgadinhos, Opções sem glúten",
-        "type": "Vegano"
+        "title": "Quitutes Veganos",
+        "description": "Tortas, bolos, cupcakes, muffins, cookies, docinhos, salgadinhos e opções sem glúten",
+        "icon": ""
       }
     ]
   },
@@ -128,14 +138,16 @@ var locals_list =  [
     "phone": "(67) 3425-9342",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/restveg2004/"
       }
     ],
     "modality": "KG, Livre",
     "products": [
       {
-        "name": "Comidas orientais deliciosas & saudáveis!"
+        "title": "Comida natural",
+        "description": "Comidas orientais deliciosas e saudáveis",
+        "icon": "fa-utensils"
       }
     ]
   },
@@ -151,19 +163,20 @@ var locals_list =  [
     "phone": "(67) 3427-4725 | (67) 99896-4878",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/santocantodourados"
       },
       {
-        "type": "Insta",
+        "icon": "fa-instagram",
         "link": "https://www.instagram.com/santo_canto/"
       }
     ],
     "modality": "la carte",
     "products": [
       {
-        "name": "Veggie: pão integral, alface americana, tomate, cebola roxa e hambúrguer de soja",
-        "type": "Vegetariano"
+        "title": "Veggie",
+        "description": "Pão integral, alface americana, tomate, cebola roxa e hambúrguer de soja",
+        "icon": "fa-hamburger"
       }
     ]
   },
@@ -179,19 +192,20 @@ var locals_list =  [
     "phone": "(67) 3422-2806",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/michelitolanches/"
       },
       {
-        "type": "Insta, ",
+        "icon": "Insta, ",
         "link": "https://www.instagram.com/michelito.hamburgueria/"
       }
     ],
     "modality": "la carte",
     "products": [
       {
-        "name": "Vegetariano: Hamburguer de Grão de Bico, Maionese, Queijo, Rúcula, Alface, e Tomate",
-        "type": "Vegetariano"
+        "title": "Vegetariano",
+        "description": "Hamburguer de Grão de Bico, Maionese, Queijo, Rúcula, Alface, e Tomate",
+        "icon": "fa-hamburger"
       }
     ]
   },
@@ -207,15 +221,16 @@ var locals_list =  [
     "phone": "(67) 3423-6426",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/TabascoBurger/"
       }
     ],
     "modality": "la carte",
     "products": [
       {
-        "name": "Ramones: hambúrguer de soja, queijo mussarela e queijo prato",
-        "type": "Vegetariano"
+        "title": "Ramones",
+        "description": "Hambúrguer de soja, queijo mussarela e queijo prato",
+        "icon": "fa-hamburger"
       }
     ]
   },
@@ -231,15 +246,16 @@ var locals_list =  [
     "phone": "(67) 99690-8080",
     "social_networks": [
       {
-        "type": "Site, FB, TT, Insta, ",
+        "icon": "Site, FB, TT, Insta, ",
         "link": "https://www.facebook.com/urbanoshotdog"
       }
     ],
     "modality": "la carte, KG, Livre",
     "products": [
       {
-        "name": "Bino: maionese temperada, rúcula, alface, cebola roxa, tomate, milho, ervilha, queijo, catupiry e batata palha",
-        "type": "Vegetariano"
+        "title": "Bino",
+        "description": "Maionese temperada, rúcula, alface, cebola roxa, tomate, milho, ervilha, queijo, catupiry e batata palha",
+        "icon": "fa-hamburger"
       }
     ]
   },
@@ -249,25 +265,26 @@ var locals_list =  [
     "name": "Be Blessed Gourmet",
     "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/50407315_2185765028419032_452591112347975680_n.png?_nc_cat=110&_nc_ht=scontent.fmgf1-2.fna&oh=4d225223a576a34ffaeac7a0bfd26f44&oe=5D6A18E7",
     "option_type": "Possui opção vegana",
-    "option_color":"badge-success",  
+    "option_color":"badge-success",
     "category": "Hamburgueria · Lanchonete · Restaurante fast-food",
     "address": "R. Pedro Celestino, 1239 - Jardim Tropical, Dourados - MS, 79803-070",
     "phone": "(67) 3037-1467",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/beblessedgourmet/"
       },
       {
-        "type": "Insta",
+        "icon": "fa-instagram",
         "link": "https://www.instagram.com/bblessed.gourmet/"
       }
     ],
     "modality": "la carte, KG, Livre",
     "products": [
       {
-        "name": "Be Vegetarian/Be Vegan: pão australiano, alface, tomate, cebola roxa, hambúrguer de soja, mussarela, rúcula crocante e fritas",
-        "type": "Vegano"
+        "title": "Be Vegetarian/Be Vegan",
+        "description": "pão australiano, alface, tomate, cebola roxa, hambúrguer de soja, mussarela, rúcula crocante e fritas",
+        "icon": "fa-hamburger"
       }
     ]
   },
@@ -283,15 +300,16 @@ var locals_list =  [
     "phone": "(67) 98186-3282 // 99650-9617",
     "social_networks": [
       {
-        "type": "FB",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/nakaranga/"
       }
     ],
     "modality": "la carte",
     "products": [
       {
-        "name": "Vegetariano burger: rúcula, cream cheese, tomate seco, molho mac, palmito, cebola roxa, maionese, queijo prato",
-        "type": "Vegetariano"
+        "title": "Vegetariano burger",
+        "description": "Rúcula, cream cheese, tomate seco, molho mac, palmito, cebola roxa, maionese, queijo prato",
+        "icon": "fa-hamburger"
       }
     ]
   }

@@ -11,9 +11,25 @@
 }
 
 #card-columns{
-	justify-content: center;
+  justify-content: center;
 }
 
-#local_id {
-	list-style: none;
+.fab{
+  font-size: 1.5rem;
 }
+
+
+a { 
+  color: inherit; 
+} 
+
+#modalIcons{
+	align-items: center;
+}
+
+#modalIcons :last-child{
+}
+
+
+
+	

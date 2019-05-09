@@ -18,7 +18,7 @@ function initMap() {
     		},
 
     		map: map,
-    		title: locals_list[i].name
+    		title: locals_list[i].title
     	})
 
 
@@ -38,10 +38,6 @@ function initMap() {
               </div>
             </div>`;
 
-        
-
-
-        
 
         marker.addListener('click',openInfoWindow(i, map, marker));
 
@@ -52,14 +48,32 @@ function initMap() {
     	element.addEventListener("click", (event) => {
     		let local_id = event.currentTarget.getAttribute('data-local-id');
     		document.querySelector('#localModal .modal-title').innerHTML = locals_list[local_id].name;
-    		document.querySelector('#localModal .modal-body').innerHTML = 
-    			`<div>
-    			  <p class="card-text badge ${locals_list[local_id].option_color}">${locals_list[local_id].option_type}</p>
-    			  <p><i class="fas fa-map-marker-alt"></i> ${locals_list[local_id].address}</p>
-    			  <p><i class="fas fa-phone"></i> ${locals_list[local_id].phone}</p>
-    			  <p>${locals_list[local_id].products}</p>
-    			</div>`;
 
+    		document.querySelector('#localModal .modal-body').innerHTML = 
+    			`
+				  <div class="row" >
+				    <div class="col-6">
+				      <span class="badge ${locals_list[local_id].option_color}">
+				        ${locals_list[local_id].option_type}
+				      </span>
+				    </div>
+				    <div class="col-6 text-right">
+				      ${get_links_networks(local_id)}
+				    </div>
+				    <div class="col-12 mt-2">
+				      <i class="fas fa-map-marker-alt"></i>
+				      ${locals_list[local_id].address}
+				    </div>
+				    <div class="col-12">
+				      <i class="fas fa-phone"></i>
+				      ${locals_list[local_id].phone}
+				    </div>				   
+				  </div>
+
+				  <div class="list-group mt-3">
+				    ${get_products_list(local_id)}
+				  </div>
+    			`;
 
     		$('#localModal').modal('show');
     	})
@@ -69,11 +83,33 @@ function initMap() {
 
 function openInfoWindow(company, map, marker){
 	return (event) => {
-		var info_estrutura = `<div>
-		                        <h5>${locals_list[company].name}</h5>
-		                        <p>${locals_list[company].category}</p>
-		                        <p class="card-text badge ${locals_list[company].option_color}">${locals_list[company].option_type}</p>
-        					  </div>`;
+		var info_estrutura = 
+			`<div>	
+				<div class="row" >
+					<h5 class="col-12>${locals_list[company].name}</h5>
+					<p class="col-12>${locals_list[company].category}</p>
+					<div class="col-6">
+						<span class="badge ${locals_list[company].option_color}">
+							${locals_list[company].option_type}
+						</span>
+					</div>
+					<div class="col-6 text-right">
+						${get_links_networks(company)}
+					</div>
+					<div class="col-12 mt-2">
+						<i class="fas fa-map-marker-alt"></i>
+						${locals_list[company].address}
+					</div>
+					<div class="col-12">
+						<i class="fas fa-phone"></i>
+						${locals_list[company].phone}
+					</div>
+					<div class="list-group mt-3">
+						${get_products_list(company)}
+					</div>				   
+				</div>
+			</div>`;
+
         if (infowindow){
         	infowindow.close();
         }
@@ -86,3 +122,31 @@ function openInfoWindow(company, map, marker){
 	}
 }
 
+function get_products_list(local_id){
+	return locals_list[local_id].products.reduce(
+		(acumulator, currentValue, index) => {
+			return `
+				${acumulator}
+				<a href="#" class="list-group-item list-group-item-action">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">
+						${currentValue.title}
+					</h5>
+					<small>
+						<i class="fas ${currentValue.icon}"></i>
+					</small>
+				</div>
+				<p class="mb-1">${currentValue.description}</p>
+			</a>
+			`
+		}, 
+		""
+	)	
+}
+    		
+function get_links_networks(local_id){ 		
+	return locals_list[local_id].social_networks.reduce(
+		(acumulator, currentValue) => acumulator + `<a href="${currentValue.link}" target="_blank" class="mr-2"><i class="fab ${currentValue.icon}"></i></a>`, 
+		""
+	)	
+}
