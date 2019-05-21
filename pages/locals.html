@@ -10,11 +10,11 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../css/locals.css">
 
-  <title>Document</title>
+  <title>Locais</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#">
       <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
     </a>
@@ -26,16 +26,19 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav mr-sm-4">
         <li class="nav-item">
-          <a href="#whats-is-title" class="nav-link">O que é</a>
+          <a href="../index.html#whats-is-title" class="nav-link">O que é</a>
         </li>
         <li class="nav-item">
-          <a href="#why-title" class="nav-link">Por que</a>
+          <a href="../index.html#why-title" class="nav-link">Por que</a>
         </li>
         <li class="nav-item">
-          <a href="#importance-title" class="nav-link">Importância</a>
+          <a href="../index.html#importance-title" class="nav-link">Importância</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a href="./locals.html" class="nav-link">Locais</a>
+        </li>
+        <li class="nav-item">
+          <a href="pages/utils-links.html" class="nav-link">Links Úteis</a>
         </li>
       </ul>
     </div>
@@ -48,63 +51,34 @@
           <a class="nav-item nav-link active" id="nav-map-tab" data-toggle="tab" href="#map-content" role="tab" aria-selected="true">Mapa</a>
           <a class="nav-item nav-link" id="nav-list-tab" data-toggle="tab" href="#list-content" role="tab" aria-selected="false">Lista</a>
         </div>
-      </nav>  
-      
+      </nav>
+
       <div class="tab-content col-sm-12" id="nav-tabContent">
-        
         <div class="tab-pane fade show active" id="map-content" role="tabpanel" aria-labelledby="nav-map-tab">
           <div id="map"></div>
         </div>
-
         <div class="tab-pane fade" id="list-content" role="tabpanel" aria-labelledby="nav-list-tab">
-          <div class="pt-4">
-            <div class="row" id="card-columns"></div>
-          </div>
+          <div class="card-columns pt-4" id="card-columns"></div>
         </div>
-
       </div>
-
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="localModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal fade" id="localModal" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+            <h5 class="modal-title" id="modal-title"></h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
           </div>
         </div>
       </div>
     </div>
   </main>
-
-
-
-
-    <!-- 
-    <div class="">
-      <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Lista</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mapa</a>
-        </li>
-      </ul>
-    </div>
-    <div class="">
-      <div class="list">List</div>
-      <div id="map"></div>
-    </div>
-    -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
