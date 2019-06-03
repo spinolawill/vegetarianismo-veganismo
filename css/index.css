@@ -9,11 +9,9 @@
     padding: 20px 8% 50px 8%;
   }
 
-
   #menu a{
     text-decoration: none;
   }
-
 
   #menu ul{
     display: flex;
@@ -36,6 +34,15 @@
     margin-left: 3rem;
   }
 
+  .title-topic{
+    color: #007534;
+  }
+
+  h1.title-topic{
+    font-size: 60px;
+  }
+
+
   /* Extra small devices (portrait phones, less than 576px) */
   @media (max-width: 575.98px) {
     .text, p{
@@ -45,7 +52,7 @@
       padding-top: 20px;
     }
 
-    h1{
+    h1.title-topic{
       font-size: 28px;
     }
 
@@ -63,10 +70,9 @@
       padding-top: 20px;
     }
 
-    h1{
-      font-size: 29px;
+    h1.title-topic{
+      font-size: 35px;
     }
-
 
     .topic{
       padding-bottom: 3.5rem;
@@ -87,8 +93,8 @@
       padding-top: 20px;
     }
 
-    h1{
-      font-size: 29px;
+    h1.title-topic{
+      font-size: 39px;
     }
 
     #vegetarian li{
