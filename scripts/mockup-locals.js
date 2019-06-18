@@ -246,7 +246,7 @@ var locals_list = [
     "phone": "(67) 99690-8080",
     "social_networks": [
       {
-        "icon": "Site, FB, TT, Insta, ",
+        "icon": "fa-facebook",
         "link": "https://www.facebook.com/urbanoshotdog"
       }
     ],

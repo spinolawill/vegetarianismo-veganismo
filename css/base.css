@@ -1,3 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+  }
+
 .bg-green{
     background-color: #66871F;
 }
+
+
+#nav_logo{
+    height: 50px;
+}
+
+.navbar{
+    padding: 2px 43px 2px 43px;
+}
+
+
+/* mr-sm-4 */
+/* #FDFFB2 */

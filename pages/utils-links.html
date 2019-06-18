@@ -8,13 +8,15 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/locals.css">
+  <link rel="stylesheet" type="text/css" href="../css/base.css">
   <title>Document</title>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg bg-green sticky-top">
     <a class="navbar-brand" href="#">
-      <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+      <img src="../img/logo.png" id="nav_logo" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,29 +24,30 @@
     </button>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-sm-4">
-        <li class="nav-item">
-          <a href="#whats-is-title" class="nav-link">O que é</a>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a href="../index.html#whats-is-title" class="nav-link text-white">O que é</a>
         </li>
         <li class="nav-item">
-          <a href="#why-title" class="nav-link">Por que</a>
+          <a href="../index.html#why-title" class="nav-link text-white">Por que</a>
         </li>
         <li class="nav-item">
-          <a href="#importance-title" class="nav-link">Importância</a>
+          <a href="../index.html#importance-title" class="nav-link text-white">Importância</a>
         </li>
         <li class="nav-item">
-          <a href="./locals.html" class="nav-link">Locais</a>
+          <a href="../pages/locals.html" class="nav-link text-white">Locais</a>
+        </li>
+        <li class="nav-item">
+          <a href="../pages/utils-links.html" class="nav-link text-white">Links Úteis</a>
+        </li>
+        <li>
+          <a href="../pages/movies.html" class="nav-link text-white">Filmes</a>
         </li>
       </ul>
     </div>
   </nav>
 
 	<main class="container-fluid pt-3">
-    <div class="jumbotron">
-      <h1 class="display-4">Olá!</h1>
-      <p class="lead">Criamos essa aba com o intuito de recomendar conteúdos que possam ser úteis pra quem é ou pretende ser veg.</p>
-      <hr class="my-4">
-    </div>
     
     <article>
       <header>
@@ -80,28 +83,30 @@
     <article>
       <header><i class="fab fa-instagram d-flex"></i></header>
       <main>
-          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-          <div class="elfsight-app-04ebd03a-e9db-4716-a072-f5019237757f"></div>
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-04ebd03a-e9db-4716-a072-f5019237757f"></div>
       </main>
     </article>
     
     <article>
-      <header><i class="fab fa-youtube d-flex"></i></header>
+      <header>
+        <i class="fab fa-youtube d-flex"></i>
+      </header>
+      
       <main>
         <article>
-
           <div class="card mb-4" style="max-width: ;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                    <iframe class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/v8xRwaTtU7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Alimentação Sem Carne - Dr Eric Slywitch</h5>
-                    <p class="card-text">Canal de informações sobre nutrição e metabolismo, possui séries sobre alimentação vegetariana, dietas Low Carb, entre outros.</p>
-                  </div>
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <iframe class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/v8xRwaTtU7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Alimentação Sem Carne - Dr Eric Slywitch</h5>
+                  <p class="card-text">Canal de informações sobre nutrição e metabolismo, possui séries sobre alimentação vegetariana, dietas Low Carb, entre outros.</p>
                 </div>
               </div>
+            </div>
           </div>
 
           <div class="card mb-4" style="max-width: ;">
@@ -119,266 +124,64 @@
           </div>
   
           <div class="card mb-4" style="max-width: ;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <iframe class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/dpkFE06m22o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Presunto Vegetariano</h5>
-                    <p class="card-text">É um canal onde você pode encontrar receitas vegetarianas e veganas, tanto salgadas quanto doces, rápidas, práticas, nutritivas e saudáveis!</p>
-                  </div>
-                </div>
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <iframe class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/dpkFE06m22o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-          </div>
-        
-          <div class="card mb-4" style="max-width: ;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <iframe class="card-img"  width="100%" height="100%" src="https://www.youtube.com/embed/khonaq5JTc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">VegetariRANGO</h5>
-                    <p class="card-text">Programa de Culinária Vegetariana sem Frescura, possui vídeos de vlogs, entrevistas, respostas de dúvidas frequentes e receitas que facilitam a vida de veganos e vegetarianos</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-
-          <div class="card mb-4" style="max-width: ;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <iframe class="card-img" width="100%" height="100%"  src="https://www.youtube.com/embed/JGTSuPBYfFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">VegTube</h5>
-                    <p class="card-text">O Canal VegTube é um espaço para a divulgação do estilo de vida saudável por meio da culinária vegetariana e vegana. Com receitas práticas e ingredientes de fácil acesso, os vídeos demonstram de maneira didática e descontraída o preparo de pratos típicos do nosso dia a dia.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          <div class="card mb-4" style="max-width: ;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                    <iframe  class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/FTxoSxCC7z0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">TÁ NA MESA VEGG</h5>
-                    <p class="card-text">É um canal feito para compartilhar experiências na cozinha, facilitar e explorar o universo vegano! Para nós cozinhar é muito mais do que fazer comida, cozinhar é alinhar corpo e alma!</p>
-                  </div>
-                </div>
-              </div>
-          </div>
-          
-
-
-          <!-- <div class="card-deck">
-              <div class="card mb-3 style="max-width: ;">
-                  <div class="row no-gutters">
-                    <div class="col-md-4">
-                      <iframe class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/dpkFE06m22o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Presunto Vegetariano</h5>
-                        <p class="card-text">É um canal onde você pode encontrar receitas vegetarianas e veganas, tanto salgadas quanto doces, rápidas, práticas, nutritivas e saudáveis!</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              <div class="card mb-3" style="max-width: ;">
-                  <div class="row no-gutters">
-                    <div class="col-md-4">
-                      <iframe class="card-img"  width="100%" height="100%" src="https://www.youtube.com/embed/khonaq5JTc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">VegetariRANGO</h5>
-                        <p class="card-text">Programa de Culinária Vegetariana sem Frescura, possui vídeos de vlogs, entrevistas, respostas de dúvidas frequentes e receitas que facilitam a vida de veganos e vegetarianos</p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-          </div>
-
-          <div class="card-deck">
-              <div class="card mb-3 style="max-width: ;">
-                  <div class="row no-gutters">
-                    <div class="col-md-4">
-                      <iframe class="card-img" width="100%" height="100%"  src="https://www.youtube.com/embed/JGTSuPBYfFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">VegTube</h5>
-                        <p class="card-text">O Canal VegTube é um espaço para a divulgação do estilo de vida saudável por meio da culinária vegetariana e vegana. Com receitas práticas e ingredientes de fácil acesso, os vídeos demonstram de maneira didática e descontraída o preparo de pratos típicos do nosso dia a dia.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              <div class="card mb-3" style="max-width: ;">
-                  <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <iframe  class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/FTxoSxCC7z0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">TÁ NA MESA VEGG</h5>
-                        <p class="card-text">É um canal feito para compartilhar experiências na cozinha, facilitar e explorar o universo vegano! Para nós cozinhar é muito mais do que fazer comida, cozinhar é alinhar corpo e alma!</p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-          </div> -->
-
-          <!-- <div class="card-deck mb-3">
-              <div class="card">
-                  <iframe class="card-img-top" src="https://www.youtube.com/embed/dpkFE06m22o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">Presunto Vegetariano</h5>
                   <p class="card-text">É um canal onde você pode encontrar receitas vegetarianas e veganas, tanto salgadas quanto doces, rápidas, práticas, nutritivas e saudáveis!</p>
                 </div>
               </div>
-              
-              <div class="card">
-                <iframe class="card-img-top" src="https://www.youtube.com/embed/khonaq5JTc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        
+          <div class="card mb-4" style="max-width: ;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <iframe class="card-img"  width="100%" height="100%" src="https://www.youtube.com/embed/khonaq5JTc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">VegetariRANGO</h5>
                   <p class="card-text">Programa de Culinária Vegetariana sem Frescura, possui vídeos de vlogs, entrevistas, respostas de dúvidas frequentes e receitas que facilitam a vida de veganos e vegetarianos</p>
                 </div>
               </div>
+            </div>
           </div>
 
-          <div class="card-deck mb-3">
-              <div class="card">
-                  <iframe class="card-img-top" src="https://www.youtube.com/embed/JGTSuPBYfFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="card mb-4" style="max-width: ;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <iframe class="card-img" width="100%" height="100%"  src="https://www.youtube.com/embed/JGTSuPBYfFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">VegTube</h5>
-                  <p class="card-text">O Canal VegTube é um espaço para a divulgação do estilo de vida saudável por meio da culinária vegetariana e vegana. Com receitas práticas e ingredientes de fácil acesso, os vídeos demonstram de maneira didática e descontraída o preparo de pratos típicos do nosso dia a dia.
-                      </p>
+                  <p class="card-text">O Canal VegTube é um espaço para a divulgação do estilo de vida saudável por meio da culinária vegetariana e vegana. Com receitas práticas e ingredientes de fácil acesso, os vídeos demonstram de maneira didática e descontraída o preparo de pratos típicos do nosso dia a dia.</p>
                 </div>
               </div>
-              
-              <div class="card">
-                <iframe  class="card-img-top" src="https://www.youtube.com/embed/FTxoSxCC7z0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="card mb-4" style="max-width: ;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                  <iframe  class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/FTxoSxCC7z0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-8">
                 <div class="card-body">
                   <h5 class="card-title">TÁ NA MESA VEGG</h5>
                   <p class="card-text">É um canal feito para compartilhar experiências na cozinha, facilitar e explorar o universo vegano! Para nós cozinhar é muito mais do que fazer comida, cozinhar é alinhar corpo e alma!</p>
                 </div>
               </div>
-          </div> -->
-
-              
-
-
-      <!-- <div class="card-deck">
-          <div class="card mb-3" style="max-width: ;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <iframe class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/v8xRwaTtU7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
             </div>
-
-            <div class="card mb-3" style="max-width: ;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="..." class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div> -->
-
-      <!-- <div class="">
-            
-            <div class="row">
-
-            <div class="card col-md-6 mb-1" style="max-width:;">
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                    <iframe class="card-img" width="100%" height="100%" src="https://www.youtube.com/embed/v8xRwaTtU7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card col-md-6 mb-1" style="max-width:;">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img src="..." class="card-img" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card col-md-5 mb-1" style="max-width: ;">
-                  <div class="row no-gutters">
-                    <div class="col-md-4">
-                      <img src="..." class="card-img" alt="...">
-                    </div>
-                    <div class="col-md-8">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card col-md-5 mb-1" style="max-width: ;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="..." class="card-img" alt="...">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                
-                </div>
-          </div> -->
+          </div>
         </article>
       </main>
     </article>
 	</main>
-
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
