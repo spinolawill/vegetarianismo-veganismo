@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="css/index.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./css/locals.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
   <link rel="stylesheet" type="text/css" href="./css/base.css">  
+  <link rel="stylesheet" type="text/css" href="./css/locals.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
   <title>Como ser vegano/vegetariano - Um guia para todos</title>
 </head>
 
@@ -20,9 +21,9 @@
     <a class="navbar-brand" href="#">
       <img src="./img/logo.png" id="nav_logo" alt="">
     </a>
-    <button class="navbar-toggler   navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars"></i>
     </button>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -60,7 +61,11 @@
         <main class="main-veg">
           <p>Segundo a Sociedade Vegetariana Brasileira, o Vegetarianismo é o regime alimentar que exclui todos os tipos de carnes.</p>
           <div class="row">
-            <img width="100%" height="100%" src="img/icons-09.png" class="col-sm-12 col-md-4 col-lg-3"></img>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <figure>
+                <img width="100%" height="100%" src="img/veg-06.png" id="vegetarian_figure">
+              </figure>
+            </div>
             <div class="col-sm-12 col-md-8 col-lg-9">
               <p>O vegetarianismo costuma ser classificado da seguinte forma:</p>
               <ul id="classificationVeg"> 
@@ -79,13 +84,9 @@
           <h1 id="whats-is" class="title-topic">Veganismo</h1>
         </header>
         <main>
+          <figure id="vegan_figure"><img width="100%" height="100%" src="img/veg-03.png" class=""></figure>
           <p>O Veganismo segundo a Vegan Society é um modo de vida que procura excluir, na medida do possível e praticável, todas as formas de exploração e crueldade dos animais - seja na alimentação, no vestuário ou em outras esferas do consumo.</p>
-          <div class="row">
-            <div class="col-sm-12 col-md-9 col-lg-10">
-              <p id="citation"><i>“Há muitas maneiras de abraçar a vida vegana. No entanto, uma coisa que todos os vegans têm em comum é uma dieta baseada em vegetais evitando todos os alimentos de origem animal, como carne (incluindo peixes, moluscos e insetos), laticínios, ovos e mel - assim como produtos como couro e qualquer outro testado em animais.” (Vegan Society)</i></p>
-            </div>
-            <img width="100%" height="100%" src="img/icons_Prancheta 1.png" class="col-sm-12 col-md-3 col-lg-2"></img>
-          </div>
+          <p id="citation"><i>“Há muitas maneiras de abraçar a vida vegana. No entanto, uma coisa que todos os vegans têm em comum é uma dieta baseada em vegetais evitando todos os alimentos de origem animal, como carne (incluindo peixes, moluscos e insetos), laticínios, ovos e mel - assim como produtos como couro e qualquer outro testado em animais.” (Vegan Society)</i></p>
         </main>
       </article>
 
@@ -110,8 +111,13 @@
         </main>
       </article>
     </div>
-
   </main>
+
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted d-flex">Desenvolvido com<i class="fas fa-heart"></i>por William Medeiros</span>
+    </div>
+  </footer>
 
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
