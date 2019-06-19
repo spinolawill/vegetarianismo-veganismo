@@ -47,7 +47,14 @@
     padding-top: 20px;
   }
 
-
+  #referencias{
+    padding-top: 40px;
+  }
+  .refence{
+    padding-top: 0px;
+    padding-bottom: 1px;
+    line-height: 15px;
+  }
 
 
 
