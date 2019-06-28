@@ -3,15 +3,11 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
-  }
+}
 
 .bg-green{
     background-color: #66871F;
 }
-
-/* .bg-green{
-    background-color: #477d55;
-} */
 
 #nav_logo{
     height: 50px;
@@ -38,7 +34,3 @@ footer .text-muted{
     padding: 0 5px 0 5px;
     color: #f60a0ad1;
 }
-
-
-/* mr-sm-4 */
-/* #FDFFB2 */
