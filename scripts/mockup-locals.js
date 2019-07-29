@@ -130,7 +130,7 @@ var locals_list = [
     "lat": -22.24892,
     "lng": -54.805136,
     "name": "Restaurante Vegetariano Natural",
-    "img": "https://www.facebook.com/restveg2004/photos/a.140460016094320/699712846835698/?type=1&theater",
+    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/13244845_699712846835698_7322501885913022525_n.jpg?_nc_cat=102&_nc_eui2=AeHElxWt5VvDIXDD06rxCEcDdhkza8QxuL1nOhOtOmtd6P3ah9omkJHXdwZMA-1RiRleqV7ZvWAa16Dmg_cOgMR4_2Zs4CnwcxIHYHkHPYDaTg&_nc_oc=AQllYHcJao_-u8731D6hW30I73M1RU3kyh1nkVelBd_A3Cv0yxAPebr6YOjgKsbmq0EtZNHpuDsG8ULIcahCeWXQ&_nc_ht=scontent.fmgf1-2.fna&oh=c121a7945a633f3f8e30eb04ff6a4370&oe=5DA5EAA0",
     "option_type": "Possui opção vegana",
     "option_color": "badge-success",
     "category": "Restaurante",
