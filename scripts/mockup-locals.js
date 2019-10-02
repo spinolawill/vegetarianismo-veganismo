@@ -3,7 +3,7 @@ var locals_list = [
     "lat": -22.228341,
     "lng": -54.817493,
     "name": "Cantina do Paulão",
-    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/49479731_1939677809460923_5090699692270944256_n.png?_nc_cat=110&_nc_ht=scontent.fmgf1-2.fna&oh=44d8c2f197d605b88b23487c916e0674&oe=5D6C474D",
+    "img": "https://drive.google.com/uc?id=171AzHhtzblUk1LYG_xcPMW3Vhml8gtdj",
     "option_type": "Possui opção vegana",
     "option_color": "badge-success",
     "category": "Hamburgueria · Bar · Restaurante",
@@ -33,7 +33,7 @@ var locals_list = [
     "lat": -22.225637,
     "lng": -54.809675,
     "name": "Baru Mercado Natural",
-    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/30739931_583357632028368_8747150534135250944_n.png?_nc_cat=100&_nc_ht=scontent.fmgf1-2.fna&oh=2d0b7968cd14f2b5f934357e7b230989&oe=5D653C14",
+    "img": "https://drive.google.com/uc?id=1Zoh-MleHK00To75WQDW6qfPjlqW7Q2pE",
     "option_type": "Possui opção vegana",
     "option_color": "badge-success",
     "category": "Especializado",
@@ -62,7 +62,7 @@ var locals_list = [
     "lat": -22.225784,
     "lng": -54.806803,
     "name": "The 49",
-    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/49209838_2197495907184463_4345552385725169664_n.png?_nc_cat=111&_nc_ht=scontent.fmgf1-2.fna&oh=0aab8fb29c06c98d77cae115dadea63a&oe=5D6D281B",
+    "img": "https://drive.google.com/uc?id=1hZpqFwta78gCBMBVD8-KMgqz6xgnK_oH",
     "option_type": "Possui opção vegana",
     "option_color": "badge-success",
     "category": "Chopperia · Restaurante",
@@ -101,7 +101,7 @@ var locals_list = [
     "lat": -22.21598,
     "lng": -54.835396,
     "name": "Flor de AMORa Bistrô",
-    "img": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t1.0-9/38085839_319675085244466_7407626272613859328_n.png?_nc_cat=104&_nc_ht=scontent.fmgf1-1.fna&oh=83fa3617fe695a5c3dd9225fb6f66d40&oe=5D70483E",
+    "img": "https://drive.google.com/uc?id=1WbNsiId-n0MlBNEYqcdlipMA5fskogL0",
     "option_type": "Possui opção vegana",
     "option_color": "badge-success",
     "category": "Restaurante",
@@ -155,7 +155,7 @@ var locals_list = [
     "lat": -22.220194,
     "lng": -54.824767,
     "name": "Santo Canto",
-    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/48407713_2223660524615059_5264894554955317248_n.png?_nc_cat=111&_nc_ht=scontent.fmgf1-2.fna&oh=4b5a17ef648d62c4c3f07e3949498745&oe=5D73237B",
+    "img": "https://drive.google.com/uc?id=1YI8EOh4t4We8aKn9lXwv38LGSUKHYfYD",
     "option_type": "Possui opção vegetariana",
     "option_color": "badge-warning",
     "category": "Hamburgueria",
@@ -184,7 +184,7 @@ var locals_list = [
     "lat": -22.214231,
     "lng": -54.811169,
     "name": "Michelito",
-    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/22365182_1264154343691166_6425808962490370546_n.jpg?_nc_cat=102&_nc_ht=scontent.fmgf1-2.fna&oh=10002f124bf78db062e4c788fd8d71fc&oe=5D6190B8",
+    "img": "https://drive.google.com/uc?id=1htPSHMC0Mki1EbC7k3Pp0P6E64JvwVAt",
     "option_type": "Possui opção vegetariana",
     "option_color": "badge-warning",
     "category": "Hamburgueria · Lanchonete · Restaurante fast-food",
@@ -213,7 +213,7 @@ var locals_list = [
     "lat": -22.236392,
     "lng": -54.821164,
     "name": "Tabasco Burguer",
-    "img": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t1.0-9/53145599_2101168130122426_2810282094880620544_n.jpg?_nc_cat=108&_nc_eui2=AeE9n_lFuRdP7W561zyaQ7h5eHjD_I83gllYsS-pW_S3qZ60r3g4xARkj_kwXdMGg0596tGYyIl0ffAzo5DsFl4FSvuqKFqblHgwFbzBLhWQCQ&_nc_oc=AQk3_Guj-cHWvSlBCwdHWNwbZ0kDZQQ7XvzHqxBhfHQurxhuR6rc1a3GORo5s_xs_xAB4hQaLiY9lYsYY4zS32-N&_nc_ht=scontent.fmgf1-1.fna&oh=53709927c0f833587a3df1bfbbfd6c9d&oe=5DA579E0",
+    "img": "https://drive.google.com/uc?id=11Ewl61InKu4hrop8nFoxVGsYTY5q-HQ-",
     "option_type": "Possui opção vegetariana",
     "option_color": "badge-warning",
     "category": "Hamburgueria · Restaurante fast-food",
@@ -238,7 +238,7 @@ var locals_list = [
     "lat": -22.239634,
     "lng": -54.799789,
     "name": "Urbanos Hot Dog",
-    "img": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t1.0-9/53154973_2032442047056924_8489952374733930496_n.jpg?_nc_cat=105&_nc_eui2=AeE-jh3w7Ij8MSM6Xuql6cAz7Zobe8Il1vtgItgno6Yq2P49rruwuwTQhuKK0EXN4HA6NH9udkcXKwWWrfpdX4lxST-AxNCU1gnRGe88m4e33A&_nc_oc=AQnk5mnwRAf_XRrbRrO2dVrH7QnyeNshhTNk8Voihhu0XgPuu8U1GqQn8VkOhL03mJ4dhWzKGBLP82SBx1Or915l&_nc_ht=scontent.fmgf1-1.fna&oh=229919a7eadb3c85656f82d6933fba76&oe=5DA59EAD",
+    "img": "https://drive.google.com/uc?id=1PjXvBft3BudLQ2lhljBGjjQyVFYOoG53",
     "option_type": "Possui opção vegetariana",
     "option_color": "badge-warning",
     "category": "Lanchonete",
@@ -260,41 +260,12 @@ var locals_list = [
     ]
   },
   {
-    "lat": -22.22271,
-    "lng": -54.824253,
-    "name": "Be Blessed Gourmet",
-    "img": "https://scontent.fmgf1-2.fna.fbcdn.net/v/t1.0-9/50407315_2185765028419032_452591112347975680_n.png?_nc_cat=110&_nc_ht=scontent.fmgf1-2.fna&oh=4d225223a576a34ffaeac7a0bfd26f44&oe=5D6A18E7",
-    "option_type": "Possui opção vegana",
-    "option_color": "badge-success",
-    "category": "Hamburgueria · Lanchonete · Restaurante fast-food",
-    "address": "R. Pedro Celestino, 1239 - Jardim Tropical",
-    "phone": "(67) 3037-1467",
-    "social_networks": [
-      {
-        "icon": "fa-facebook",
-        "link": "https://www.facebook.com/beblessedgourmet/"
-      },
-      {
-        "icon": "fa-instagram",
-        "link": "https://www.instagram.com/bblessed.gourmet/"
-      }
-    ],
-    "modality": "la carte, KG, Livre",
-    "products": [
-      {
-        "title": "Be Vegetarian/Be Vegan",
-        "description": "pão australiano, alface, tomate, cebola roxa, hambúrguer de soja, mussarela, rúcula crocante e fritas",
-        "icon": "fa-hamburger"
-      }
-    ]
-  },
-  {
     "lat": -22.221958,
     "lng": -54.820041,
     "option_type": "Possui opção vegetariana",
     "option_color": "badge-warning",
     "name": "NaKaranga FoodTrailer",
-    "img": "https://scontent.fmgf1-1.fna.fbcdn.net/v/t1.0-9/14680732_316738642009719_7018679532886045744_n.png?_nc_cat=105&_nc_eui2=AeGDKfDox8AudjC88HFtwwUHiJDQ0vKkApIoQwONEfVvqAyx4BSr0eAGR8GxAbJykkDyNztmX835oFu4VXXPEiKjerysora0O02x20upxRGTQw&_nc_oc=AQmleVpBIemlg3P8t3Sjhcd9-Mkvzj8w279kWTl0l1RjqxlKWVUwcSEsllv0a5HvDJAQnIZvxyPOCdioNh_YV4Lz&_nc_ht=scontent.fmgf1-1.fna&oh=25b0bce005ebcad93b72af90f8d0fec2&oe=5DA01779",
+    "img": "https://drive.google.com/uc?id=1Ag6hKMCiuUHeMqdjyzS7IfX2ZpfY4l3K",
     "category": "Hamburgueria · Bar",
     "address": "R. Benjamin Constant, 1214 - BNH I Plano",
     "phone": "(67) 98186-3282 // 99650-9617",
